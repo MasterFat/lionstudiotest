@@ -108,7 +108,7 @@ export default function TopRatedArtists() {
           {top_creators.map((item) => (
             <button
               key={item.id}
-              className={`w-full h-[100px] bg-[#3B3B3B] flex justify-center items-center rounded-[20px] mb-[20px] hover:bg-zinc-700 hover:scale-105 transition-all
+              className={`w-full h-[100px] bg-[#3B3B3B] flex justify-center items-center rounded-[20px] mb-[20px] hover:bg-zinc-700 transition-all
               tablet:w-[330px] tablet:mr-[15px]
             desktop:w-[240px] desktop:h-[238px] desktop:flex-wrap`}
             >
@@ -138,7 +138,7 @@ export default function TopRatedArtists() {
 
 const ViewRankingButton_mobile = () => {
   return (
-    <button className="tablet:hidden w-full h-[60px] mt-3 border-2 border-[#A259FF] rounded-[20px] flex justify-center items-center hover:scale-105 transition-all">
+    <button className="tablet:hidden w-full h-[60px] mt-[40px] border-2 border-[#A259FF] rounded-[20px] flex justify-center items-center hover:scale-105 transition-all">
       <div className="h-[22.4px] flex justify-center items-center">
         <img className="w-[20px] h-[20px] mr-[12px]" src={rocketpurple} alt="" />
         <span className="text-[16px]">View Rankings</span>
