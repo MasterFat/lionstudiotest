@@ -65,7 +65,7 @@ export default function TrendingCollection() {
 
 const Collection_One = () => {
   return (
-    <div className="my-[30px] mr-[30px]">
+    <div className="my-[30px] mr-[30px] w-[315px]">
       <div className="hover:scale-105 cursor-pointer transition-all">
         <img className="rounded-[20px]" src={keemun_dog} alt="" />
       </div>
@@ -88,7 +88,7 @@ const Collection_One = () => {
 }
 const Collection_Two = () => {
   return (
-    <div className="my-[30px] mr-[30px]">
+    <div className="my-[30px] mr-[30px] w-[315px]">
       <div className="hover:scale-105 cursor-pointer transition-all">
         <img className="rounded-[20px]" src={mushroom1} alt="" />
       </div>
@@ -111,7 +111,7 @@ const Collection_Two = () => {
 }
 const Collection_Three = () => {
   return (
-    <div className="my-[30px] mr-[30px]">
+    <div className="my-[30px] mr-[30px] w-[315px]">
       <div className="hover:scale-105 cursor-pointer transition-all">
         <img className="rounded-[20px]" src={robot1} alt="" />
       </div>
