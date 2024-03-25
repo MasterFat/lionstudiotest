@@ -7,27 +7,16 @@ import instagram from "/src/image/icons/instagram.svg"
 import mail from "/src/image/icons/mail.svg"
 
 const icons = [
-  {
-    id: 1,
-    icon: discord,
-  },
-  {
-    id: 2,
-    icon: youtube,
-  },
-  {
-    id: 3,
-    icon: twitter,
-  },
-  {
-    id: 4,
-    icon: instagram,
-  },
+  { id: 1, icon: discord },
+  { id: 2, icon: youtube },
+  { id: 3, icon: twitter },
+  { id: 4, icon: instagram },
 ]
 
 export default function Footer() {
   return (
     <div className="flex flex-wrap justify-center px-[30px] py-[40px] bg-[#3B3B3B]">
+      {/*Footer Info*/}
       <div className="flex flex-wrap justify-center w-[315px] tablet:w-[690px] desktop:w-[1050px] desktop:justify-between">
         <div className="flex flex-wrap mb-[30px] desktop:w-[327.41px]">
           <div className="flex items-center w-full mb-[20px]">
@@ -82,7 +71,7 @@ export default function Footer() {
             </button>
           </div>
         </div>
-
+        {/*Frame 239*/}
         <div className="w-full border-t border-[#858584] ">
           <p className="pt-[20px] text-[12px] text-[#CCCCCC]">Ⓒ NFT Market. Use this template freely.</p>
         </div>
